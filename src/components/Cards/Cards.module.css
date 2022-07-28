@@ -1,0 +1,19 @@
+.container {
+    margin-bottom: 60px;
+}
+
+.gridContainer {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.typography {
+    display: flex;
+    justify-content: center;
+}
+
+.title {
+    margin-bottom: 60px;
+    display: flex;
+    justify-content: center;
+}

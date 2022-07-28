@@ -1,0 +1,37 @@
+.layout {
+    display: flex;
+    justify-content: center;
+    padding: 22px 0 22px 0;
+    background-color: #302F4D;
+}
+
+.item {
+    margin: 0 10px 0 10px;
+    text-decoration: none;
+}
+
+footer {
+    text-align: center;
+    padding: 5px;
+    background: #120D31;
+  }
+
+.footerTitle {
+    display: flex;
+    justify-content: center;
+}
+
+
+.footerLink {
+    text-decoration: none;
+    color: white;
+}
+
+.footerLink:focus {
+    color: #A57982
+}
+
+main {
+    min-height: calc(100vh - 125px);
+}
+

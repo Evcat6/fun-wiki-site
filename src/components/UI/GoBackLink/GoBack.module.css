@@ -1,0 +1,12 @@
+.link {
+    margin-top: 6px;
+    color: white;
+    text-decoration: none;
+    background-color: #302F4D;
+    padding: 8px;
+    border-radius: 3px ;
+}
+
+.link:focus {
+    color: #A57982; 
+}
