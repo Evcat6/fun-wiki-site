@@ -6,7 +6,7 @@ import GoBackLink from '../UI/GoBackLink/GoBackLink';
 
 const CharacterPage = ({idData}) => {
     return ( 
-        <div>
+        <>
             {idData? (
                 <div className={styles.container}>
                     <div><img src={idData.img_url} alt={idData.name} className={styles.img} /></div>
@@ -33,7 +33,7 @@ const CharacterPage = ({idData}) => {
             )
             
             }
-        </div>
+        </>
     );
 }
  
